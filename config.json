@@ -15,20 +15,16 @@
         "run": "python3 main.py"
     },
     "bot2": {
-        "source": "repo_link",
-        "branch": "master",
+        "source": "https://github.com/ToukaSama/bot2.git",
+        "branch": "main",
         "env": {
-            "TOKEN": ""
+            "TOKEN": "7582548713:AAEgu3o0TFDny3CCER63EJeZC502P5HXTio"
+            "CHANNEL_ID": "-1002134572304" 
+            "OWNER_ID": "6440021089" 
+            "DB_URL": "meow" 
+            "DB_NAME": "meow" 
+            "FORCESUB_CHANNEL": "-1002098656629" 
+            "FORCESUB_CHANNEL2": "-1002017610951" 
         },
-        "run": "run.sh"
-    },
-    "bot3": {
-        "source": "repo_link",
-        "branch": "master",
-        "env": {
-            "TOKEN": ""
-        },
-        "run": "run.sh"
-    },
-
+        "run": "python3 main.py"
 }
