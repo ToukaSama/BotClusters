@@ -1,11 +1,18 @@
 {   
     "bot1": {
-        "source": "repo_link",
-        "branch": "master",
+        "source": "https://github.com/ToukaSama/File-Sharing-Telegram-bot.git",
+        "branch": "main",
         "env": {
-            "TOKEN": ""
+            "TG_BOT_TOKENA": "7464559486:AAEI4OOiEPS9s6mZ5V4GIxzljjZoYyto518"
+            "CHANNEL_ID": "-1002134572304" 
+            "OWNER_ID": "6440021089" 
+            "DB_URL": "nya" 
+            "DB_NAME": "nya" 
+            "FORCE_SUB_CHANNEL": "-1002098656629" 
+            "FORCE_SUB_CHANNEL2": "-1002017610951" 
+            "OWNER_TAG": "Itsme_meowtaro" 
         },
-        "run": "run.sh"
+        "run": "python3 main.py"
     },
     "bot2": {
         "source": "repo_link",
